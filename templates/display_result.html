@@ -1,0 +1,18 @@
+{% extends "index.html" %}
+ {% block result %}
+ 
+ <h2>Scroll down...</h2>
+ <div class="search_result">
+    <div class="result_box">
+        <h3> Showing Results for...{{query}} </h3>
+
+          {{result|safe}}
+
+
+
+
+			</div>
+
+
+    </div>
+ {% endblock %}

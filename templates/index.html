@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+  {% block content %}
+    
+    <div class="s01">
+      <form action = "/result" method = "POST">
+        <fieldset>
+          <legend id="logo" align="center"><h1>PharmEazy</h1></legend>
+          <legend id ="logo" align="center"><h0>Take a chill pill, but take the right one!</h0></legend>
+        </fieldset>
+		<br>
+		<br>
+        <div class="inner-form">
+          <div align="center" class="input-field first-wrap">
+            <input align="center" name="search" type="text" placeholder="How are you today?"/>
+          </div>
+          <div align="center" class="input-field third-wrap">
+            <button class="btn-search" type="submit" value="Search" >Search</button>
+          </div>
+        </div>
+      </form>
+    </div>
+	<div class="search_result">{% block result %}{% endblock %}</div>
+
+  {% endblock %}
