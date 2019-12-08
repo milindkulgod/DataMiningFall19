@@ -86,7 +86,7 @@ First, we need to calculate the prior probabilities, and this is done by creatin
 
 The Laplace smoothing is the hyperparameter. In case of hyperparameter tuning, the approach around the default was to change the value of the hyperparameter. Observations show that by decreasing the value of the hyperparameter, the accuracy increased.
 
-## Imaage Caption Search
+## Image Caption Search
 
 mage captioning works in the realms of Deep Learining. It is the process of generating a textual description of a given image. Deep Learning functions on two major fundamentals, Natural Language Processing and Computer Vision. This model undergoes two phases, namely training and testing. The training phase is where the image captioning model is trained with a set of images, and a testing set of images is used to test the trained model. The image will be linked to the corresponding output captions.
 
