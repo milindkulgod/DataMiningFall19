@@ -1,0 +1,5 @@
+completedata.csv filter=lfs diff=lfs merge=lfs -text
+full2.csv filter=lfs diff=lfs merge=lfs -text
+*.csv filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
+*.pickle filter=lfs diff=lfs merge=lfs -text

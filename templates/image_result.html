@@ -1,0 +1,31 @@
+{% extends "image_index.html" %}
+ {% block result %} down...</h2>
+
+ <div class="search_result">  
+    <div class="result_box">
+        <h3> Showing Results for...{{query}} </h3>
+            <div class="outtab">
+                
+                    <table class="table"; color:white">
+                        <tr>
+                            <th scope="col" style="width:50%"> Image </th>
+                            <th scope="col" style="width:50%"> Caption </th>
+                            
+                        </tr>
+                        {% for row in result %}
+                        
+                          <tr>
+                            <td name = 'Image'><img src={{row['Url']}} ></td>
+                            <td name = 'Caption'> {{row['Caption']}} </td>
+                            
+                          </tr>
+                        
+                        {% endfor %}
+                    </table>
+                
+            </div>     
+          
+        
+    </div>
+ </div>
+ {% endblock %}
